@@ -1,0 +1,22 @@
+{
+  "name": "resume",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KirakosyanZhenya/resume.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KirakosyanZhenya/resume/issues"
+  },
+  "homepage": "https://KirakosyanZhenya.github.io/resume",
+  "dependencies": {
+    "gh-pages": "^2.2.0"
+  }
+}
