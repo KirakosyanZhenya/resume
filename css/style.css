@@ -1,0 +1,272 @@
+#wrapper {
+    width: 100%;
+    height: 859px;
+    /*padding: 8px;*/
+}
+
+.skill_level {
+    height: 6.5px;
+    width: 14.16px;
+    border-radius: 2px;
+    margin-left: 2.4px;
+}
+
+.level_1 {
+    background-color: #FFFFFF;
+    opacity: 0.6;
+}
+
+.level_2 {
+    background-color: #FFFFFF;
+    opacity: 0.7;
+}
+
+.level_3 {
+    background-color: #FFFFFF;
+    opacity: 0.8;
+}
+
+.level_4 {
+    background-color: #FFFFFF;
+    opacity: 0.9;
+}
+
+.level_5 {
+    background-color: #FFFFFF;
+    opacity: 1;
+    margin-right: 5.4px;
+}
+
+#main_content {
+    /*width: 612px;*/
+    height: 859px;
+    position: relative;
+    border: 1px solid #707070;
+    width: 606px;
+    overflow: hidden;
+    /*top: -8px;*/
+    /*left: -8px;*/
+}
+
+#level1 {
+    position: absolute;
+    /*top: -8px;*/
+    /*left: -8px;*/
+    background-image: url("../img/Path 1.svg");
+    width: 612px;
+    height: 185px;
+}
+
+#level2 {
+    position: absolute;
+    /*top: -8px;*/
+    left: 18px;
+    background-color: #1B2324;
+    width: 228px;
+    height: 100%;
+    z-index: 2;
+}
+
+#level2_1 {
+    position: relative;
+    /*top: 16px;*/
+    width: 100%;
+    height: 228px;
+}
+#level2_circle1 {
+    position: absolute;
+    top: 12px;
+    left: 12px;
+    width: 31px;
+    height: 31px;
+    background-image: url("../img/Path_9.svg");
+}
+#level2_circle2 {
+    /*position: absolute;*/
+    /*top: 21px;*/
+    /*left: 21px;*/
+    width: 187px;
+    height: 187px;
+    z-index: 3;
+    border-radius: 50%;
+    background-image: url("../img/my_photo.jpg");
+}
+#level2_circle3 {
+    position: absolute;
+    top: 135px;
+    left: 162px;
+    width: 52px;
+    height: 52px;
+    background-image: url("../img/Path_8.svg");
+}
+
+#level2_2 {
+    position: absolute;
+    left: -10px;
+    height: 578px;
+    width: 216px;
+}
+#contact, #languages, #skills {
+    color: #FFFFFF;
+    height: 37px;
+    width: 216px;
+    background-image: linear-gradient(to right, #77989F , #385D69);
+    border-bottom-right-radius: 7px;
+    border-top-right-radius: 7px;
+}
+#contact_1, #languages_1, #skills_1 {
+    height: 37px;
+    width: 216px;
+}
+#contact_1:before, #languages_1:before, #skills_1:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 0;
+    border-top: 5px solid #385D69;
+    border-bottom: 5px solid transparent;
+    border-left: 5px solid transparent;
+    border-right: 5px solid #385D69;
+    position: absolute;
+}
+#contact_1:before, #languages_1:before, #skills_1:before {
+    top: 37px;
+    left: 0;
+}
+#contact_details, #languages_details, #skills_details {
+    min-width: 178px;
+    font: normal 13px Roboto;
+}
+#languages_1:before {
+    top: 227px;
+    left: 0;
+}
+#skills_1:before {
+    top: 393px;
+    left: 0;
+}
+
+
+#level4 {
+    position: absolute;
+    top: 662px;
+    /*left: -8px;*/
+    background-image: url("../img/Path_2.svg");
+    width: 612px;
+    height: 198px;
+}
+
+#level4_1 {
+    position: absolute;
+    top: 76px;
+    left: 499px;
+    width: 90px;
+    height: 82px;
+}
+
+#circle1 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-image: url("../img/Path_3.svg");
+    width: 73px;
+    height: 73px;
+}
+
+#circle2 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-image: url("../img/Path_4.svg");
+    width: 22px;
+    height: 22px;
+}
+
+#contact-wrap {
+    min-height: 166px;
+}
+
+#contact_details_wrap, #languages_details_wrap, #skills_details_wrap {
+    margin-top: 10px;
+}
+
+#contact_details .media {
+    margin-bottom: 4.5px;
+}
+
+#contact_details .media a {
+    font-size: 10px;
+    color: #FFFFFF;
+}
+
+#contact_details .media img {
+    margin-right: 13.5px;
+}
+
+#contact_details .media p {
+    margin: 0;
+}
+
+.three_level .level_5, .three_level .level_4 {
+    opacity: 0;
+}
+
+.four_level .level_5 {
+    opacity: 0;
+}
+
+#languages-wrap, #skills-wrap {
+    min-height: 166px;
+    padding-top: 24px;
+}
+
+#level3 {
+    width: 321px;
+    height: 100%;
+    z-index: 2;
+}
+#level3_1 {
+    position: absolute;
+    top: 55px;
+}
+#level3_1 p {
+    margin-bottom: 0;
+    color: #FFFFFF;
+}
+#name {
+    font: normal 30px Roboto;
+}
+#main_position {
+    font: normal 18px Roboto;
+}
+
+#level3_2 {
+    position: absolute;
+    top: 150px;
+}
+#education {
+    /*margin-top: 55px;*/
+}
+#education_1, #experience_1 {
+    height: 92px;
+    width: 329px;
+    background:url("../img/part_5.svg") no-repeat right bottom;
+    font: normal 18px Roboto;
+    color: #FFFFFF;
+    padding-left: 26px;
+    padding-bottom: 7px;
+}
+#education_details_wrap, #experience_details_wrap {
+    margin-top: 11.4px;
+    padding-left: 10px;
+}
+#education_details p, #experience_details p {
+    margin-bottom: 0;
+    font-size: 13px;
+}
+#education_details .years, #experience_details .years {
+    font: bold 13px Roboto;
+}
+.separation {
+    margin-top: 10px;
+}
