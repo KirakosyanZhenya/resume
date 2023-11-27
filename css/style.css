@@ -154,6 +154,7 @@
     background-image: url("../img/Path_2.svg");
     width: 612px;
     height: 198px;
+    z-index: -10;
 }
 
 #level4_1 {
